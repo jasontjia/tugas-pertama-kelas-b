@@ -1,7 +1,12 @@
 body {
+    display: 100%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+*{
+    font-family: 'poppins'; 
 }
 
 ul {
@@ -22,7 +27,7 @@ li {
     padding-right: 50px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #E5E5E5;
+    border-bottom: 2px solid white;
 }
 
 .header h1 {
@@ -42,8 +47,8 @@ main .show__me {
     padding-left: 50px;
     padding-right: 50px;
     width: max-content;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .forget__your {
@@ -54,6 +59,7 @@ main .show__me {
 .forget__your h2 {
     font-size: 42px;
     color: #152C5B;
+    line-height: 63px;
 }
 
 .forget__your p {
@@ -63,12 +69,15 @@ main .show__me {
 .forget__your button {
     background-color: #3252DF;
     color: white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
     border: none;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 30px;
+    font-size: 18px;
 }
 
 .travel {
@@ -85,4 +94,765 @@ main .show__me {
 .travel span {
     color: #152C5B;
     font-weight: bold;
+}
+
+.mostpicked h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 80px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.picked {
+    position: relative;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.picked div {
+    margin-right: 60px;
+}
+
+.beachclub h2 {
+    color: #152C5B;
+    left: 15px;
+    top: 20px;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+.beachclub p {
+    position: absolute;
+    left: 75px;
+    top: 400px;
+    font-size: 15px;
+    color: #152C5B;
+}
+
+
+.kontainer_atas {
+width: 200px;
+margin: 0 auto;
+}
+                
+.flex-kolom {
+    padding-top: 20px;
+    margin-top: -25px;
+    margin-right: 50px;
+    margin-left: -5px;
+    justify-content: space-between;
+    flex-grow: 2;
+    left: -100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: -100px;
+    padding-right: -100px;
+    padding-bottom: 0px;
+}
+                
+.flex-baris {
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-left: -5px;
+    margin-right: 80px;
+    margin-top: 5px;
+    left: -200px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: -50px;
+    padding-right: -50px;
+}
+
+.montigo h2 {
+    color: #152C5B;
+    left: 450px;
+    top: 55px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.montigo p {
+    position: absolute;
+    font-size: 15px;
+    color: #152C5B;
+    left: 500px;
+    top: 180px;
+}
+
+.montana-box h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 870px;
+    top: 55px;
+}
+
+.montana-box p {
+    position: absolute;
+    font-size: 15px;
+    color: #152C5B;
+    left: 920px;
+    top: 180px;
+}
+
+.kalpa-tree h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 450px;
+    top: 295px;
+}
+
+.kalpa-tree p {
+    color: #152C5B;
+    left: 500px;
+    top: 420px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.caesar-palace h2 {
+    color: #152C5B;
+    left: 870px;
+    top: 295px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.caesar-palace p {
+    color: #152C5B;
+    left: 920px;
+    top: 420px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.harga_pertama {
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+}
+
+.harga_pertama p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 212px;
+    top: -13px;
+}
+
+.karga_pertama p span {
+    font-weight: bold;
+}
+
+.harga_kedua {
+    padding-left: 180px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    position: absolute;
+    display: flex;
+}
+
+
+.harga_kedua p {
+    left: 200x;
+    top: -13px;
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.harga_kedua p span {
+    font-weight: bold;
+}
+
+.harga_ketiga {
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    padding-left: 6px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.harga_ketiga p {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 627px;
+    top: -13px;
+}
+
+.harga_ketiga p span {
+    font-weight: bold;
+}
+
+.harga_keempat {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.harga_keempat p {
+    color: white;
+    position: absolute;
+    left: 212px;
+    top: -13px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.harga_keempat p span {
+    font-weight: bold;
+}
+
+.harga_kelima {
+    position: absolute;
+    display: flex;
+    padding-left: 601px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.harga_kelima p span {
+    font-weight: bold;
+}
+
+.harga_kelima p {
+    color: white;
+    position: absolute;
+    left: 636px;
+    top: -13px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.part_one h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.container_pertama {
+    display: flex;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.flex-bariiis {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: -430px;
+    margin-top: 5px;
+    left: 200px;
+    justify-content: space-between;
+}
+
+.tobby-town h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.tobby-town p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.label-harga1 {
+    position: absolute;
+    display: flex;
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.label-harga1 p{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 105px;
+    top: -13px;
+}
+
+.label-harga1 p span {
+    font-weight: bold;
+}
+
+.anggana h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.anggana p {
+    font-size: 15px;
+    color:  #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.seatle-rain h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.seatle-rain p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.wooden-pit h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.wooden-pit p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.part_two h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.container_kedua {
+    display: flex;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.flex-bariiiis {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: -430px;
+    margin-top: 5px;
+    left: 200px;
+    justify-content: space-between;
+}
+
+.green-park h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.green-park p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.podowae h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.podowae p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.silver-rain h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.silver-rain p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.cash-vile h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.cash-vile p {
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+    font-size: 15px;
+
+}
+
+.label-harga2 {
+    position: absolute;
+    display: flex;
+    padding-left: 1024px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.label-harga2 p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 1047px;
+    top: -13px;
+}
+
+.label-harga2 p span {
+    font-weight: bold;
+}
+
+.part_three h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.container_ketiga {
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
+    display: flex;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+}
+
+.flex-bariiiiis {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: -430px;
+    margin-top: 5px;
+    left: 200px;
+    justify-content: space-between;
+}
+
+.pswood h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.pswood p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.onefive h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.onefive p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -50px;
+}
+
+.minimal h2 {
+    color: #152C5B;
+    left: -50px;
+    top: -35px;
+    position: relative;
+    font-size: 20px;
+}
+
+.minimal p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.label-harga3 {
+    position: absolute;
+    display: flex;
+    padding-left: 710px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.label-harga3 p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 732px;
+    top: -13px;
+}
+
+.label-harga3 p span {
+    font-weight: bold;
+}
+
+.stayshome h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.stayshome p {
+    font-size: 16px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -40px;
+}
+
+
+.happy-family {
+    margin-left: 800px;
+}
+
+.happy-family h1 {
+    margin-top: 200px;
+    margin-left: -100px;
+    color: #152C5B;
+    font-size: 30px;
+}
+
+.happy-family p{
+    color: #152C5B;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: -100px;
+}
+
+.happy-family button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: -200px;
+    font-size: 18px;
+    background-color: #3252DF;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border: none;
+}
+
+.happy img {
+    display: flex;
+    position: absolute;
+    left: 112px;
+    top: 2540px;
+}
+
+.bintang-lima {
+    left: 0;
+    margin-top: 40px;
+    margin-left: -100px;
+    position: relative;
+    display: flex;
+    bottom: 0;
+}
+
+.deskripsi p {
+    color:#152C5B;
+    font-size: 32px;
+    margin-top: 18px;
+    margin-left: -200px;
+}
+
+
+footer {
+    margin-top: 350px;
+    border-top: 4px solid #E5E5E5;
+}
+
+.footer_pertama {
+    margin-left: 60px;
+}
+
+.footer_pertama h2 {
+    color: #152C5B;
+    font-size: 24px;
+}
+
+.footer_pertama span {
+    color: #3252DF;
+}
+
+.footer_pertama p {
+    color: #B0B0B0;
+    font-size: 18px;
+}
+
+
+.footer_kedua {
+    margin-left: 140px;
+}
+
+.footer_kedua h2 {
+    color: #152C5B;
+    font-size: 18px;
+}
+
+.footer_kedua p {
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+
+.footer_ketiga {
+    margin-left: 180px;
+}
+
+.footer_ketiga h2 {
+    color: #152C5B;
+    font-size: 18px;
+}
+
+.footer_ketiga p {
+    color: #B0B0B0;
+    font-size: 14px;
+}
+
+
+.footer_keempat {
+    margin-left: 80px;
+}
+
+.footer_keempat h2 {
+    color: #152C5B;
+    font-size: 16px;
+}
+
+.footer_keempat p {
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+
+.teks_terakhir p {
+    text-align: center;
+    color: #B0B0B0;
 }
