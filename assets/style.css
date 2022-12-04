@@ -1,12 +1,12 @@
+* {
+    font-family: 'Poppins';
+}
+
 body {
     display: 100%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-*{
-    font-family: 'poppins'; 
 }
 
 ul {
@@ -27,7 +27,7 @@ li {
     padding-right: 50px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #E5E5E5;
 }
 
 .header h1 {
@@ -47,8 +47,8 @@ main .show__me {
     padding-left: 50px;
     padding-right: 50px;
     width: max-content;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .forget__your {
@@ -121,29 +121,33 @@ main .show__me {
 }
 
 .beachclub h2 {
-    color: #152C5B;
-    left: 15px;
-    top: 20px;
     position: absolute;
     font-size: 20px;
-
+    color: #152C5B;
+    left: 18px;
+    top: 295px;
 }
 
 .beachclub p {
-    position: absolute;
-    left: 75px;
-    top: 400px;
     font-size: 15px;
     color: #152C5B;
+    position: absolute;
+    left: 68px;
+    top: 420px;
 }
 
 
 .kontainer_atas {
-width: 200px;
+width: 800px;
 margin: 0 auto;
 }
-                
+
 .flex-kolom {
+    display: flex;
+    flex-direction: column;
+    padding-left: -100px;
+    padding-right: -100px;
+    padding-bottom: 0px;
     padding-top: 20px;
     margin-top: -25px;
     margin-right: 50px;
@@ -151,33 +155,28 @@ margin: 0 auto;
     justify-content: space-between;
     flex-grow: 2;
     left: -100px;
-    display: flex;
-    flex-direction: column;
-    padding-left: -100px;
-    padding-right: -100px;
-    padding-bottom: 0px;
 }
-                
+
 .flex-baris {
-    padding-bottom: 20px;
-    padding-top: 0px;
-    margin-left: -5px;
-    margin-right: 80px;
-    margin-top: 5px;
-    left: -200px;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
-    padding-left: -50px;
-    padding-right: -50px;
+    padding-left: -100px;
+    padding-right: -100px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: -5px;
+    margin-right: 100px;
+    margin-top: 5px;
+    left: -200px;
 }
 
 .montigo h2 {
+    position: absolute;
+    font-size: 20px;
     color: #152C5B;
     left: 450px;
     top: 55px;
-    position: absolute;
-    font-size: 20px;
 }
 
 .montigo p {
@@ -213,40 +212,64 @@ margin: 0 auto;
 }
 
 .kalpa-tree p {
+    position: absolute;
+    font-size: 15px;
     color: #152C5B;
     left: 500px;
     top: 420px;
-    position: absolute;
-    font-size: 15px;
 }
 
 .caesar-palace h2 {
+    position: absolute;
+    font-size: 20px;
     color: #152C5B;
     left: 870px;
     top: 295px;
-    position: absolute;
-    font-size: 20px;
 }
 
 .caesar-palace p {
+    position: absolute;
+    font-size: 15px;
     color: #152C5B;
     left: 920px;
     top: 420px;
-    position: absolute;
-    font-size: 15px;
 }
 
 .harga_pertama {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
     padding-right: 0px;
     padding-bottom: 10px;
     padding-top: 0px;
     margin-top: 0px;
-    position: absolute;
-    display: flex;
-    padding-left: 180px;
 }
 
 .harga_pertama p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    ;
+    position: absolute;
+    left: 212px;
+    top: -13px;
+}
+
+.harga_pertama p span {
+    font-weight: bold;
+}
+
+.harga_kedua {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.harga_kedua p {
     position: absolute;
     font-size: 18px;
     color: #FFFFFF;
@@ -255,41 +278,14 @@ margin: 0 auto;
     top: -13px;
 }
 
-.karga_pertama p span {
-    font-weight: bold;
-}
-
-.harga_kedua {
-    padding-left: 180px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-top: 0px;
-    position: absolute;
-    display: flex;
-}
-
-
-.harga_kedua p {
-    left: 200x;
-    top: -13px;
-    position: absolute;
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-}
-
 .harga_kedua p span {
     font-weight: bold;
 }
 
 .harga_ketiga {
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-top: 0px;
-    margin-top: 0px;
     position: absolute;
     display: flex;
-    padding-left: 6px;
+    padding-left: 601px;
     padding-right: 0px;
     padding-bottom: 10px;
     padding-top: 0px;
@@ -299,7 +295,7 @@ margin: 0 auto;
 .harga_ketiga p {
     position: absolute;
     font-size: 18px;
-    color: white;
+    color: #FFFFFF;
     position: absolute;
     left: 627px;
     top: -13px;
@@ -320,12 +316,12 @@ margin: 0 auto;
 }
 
 .harga_keempat p {
-    color: white;
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
     position: absolute;
     left: 212px;
     top: -13px;
-    position: absolute;
-    font-size: 18px;
 }
 
 .harga_keempat p span {
@@ -342,17 +338,17 @@ margin: 0 auto;
     margin-top: 0px;
 }
 
-.harga_kelima p span {
-    font-weight: bold;
-}
-
 .harga_kelima p {
-    color: white;
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
     position: absolute;
     left: 636px;
     top: -13px;
-    position: absolute;
-    font-size: 18px;
+}
+
+.harga_kelima p span {
+    font-weight: bold;
 }
 
 .part_one h2 {
@@ -391,7 +387,7 @@ margin: 0 auto;
     justify-content: space-between;
 }
 
-.tobby-town h2 {
+.tabby h2 {
     position: relative;
     font-size: 20px;
     color: #152C5B;
@@ -399,7 +395,7 @@ margin: 0 auto;
     top: -40px;
 }
 
-.tobby-town p {
+.tabby p {
     font-size: 15px;
     color: #B0B0B0;
     position: relative;
@@ -420,7 +416,7 @@ margin: 0 auto;
 .label-harga1 p{
     position: absolute;
     font-size: 18px;
-    color: white;
+    color: #FFFFFF;
     position: absolute;
     left: 105px;
     top: -13px;
@@ -499,7 +495,7 @@ margin: 0 auto;
     margin-top: -30px;
 }
 
-.flex-bariiiis {
+.green-park {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
@@ -562,7 +558,7 @@ margin: 0 auto;
     top: -60px;
 }
 
-.cash-vile h2 {
+.cashville h2 {
     position: relative;
     font-size: 20px;
     color: #152C5B;
@@ -570,13 +566,12 @@ margin: 0 auto;
     top: -40px;
 }
 
-.cash-vile p {
+.cashville p {
+    font-size: 15px;
     color: #B0B0B0;
     position: relative;
     left: 5px;
     top: -60px;
-    font-size: 15px;
-
 }
 
 .label-harga2 {
@@ -598,7 +593,7 @@ margin: 0 auto;
     top: -13px;
 }
 
-.label-harga2 p span {
+.tag2 p span {
     font-weight: bold;
 }
 
@@ -613,14 +608,14 @@ margin: 0 auto;
 }
 
 .container_ketiga {
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: -30px;
     display: flex;
     width: 800px;
     height: 250px;
     padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
 }
 
 .flex-bariiiiis {
@@ -667,15 +662,15 @@ margin: 0 auto;
     color: #B0B0B0;
     position: relative;
     left: 5px;
-    top: -50px;
+    top: -60px;
 }
 
 .minimal h2 {
-    color: #152C5B;
-    left: -50px;
-    top: -35px;
     position: relative;
     font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
 }
 
 .minimal p {
@@ -718,33 +713,37 @@ margin: 0 auto;
 }
 
 .stayshome p {
-    font-size: 16px;
+    font-size: 15px;
     color: #B0B0B0;
     position: relative;
     left: 5px;
-    top: -40px;
+    top: -60px;
 }
-
 
 .happy-family {
     margin-left: 800px;
 }
 
 .happy-family h1 {
-    margin-top: 200px;
-    margin-left: -100px;
     color: #152C5B;
-    font-size: 30px;
+    font-size: 24px;
+    margin-top: 225px;
+    margin-left: -200px;
 }
 
 .happy-family p{
     color: #152C5B;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0px;
-    margin-left: -100px;
+    margin-left: -200px;
 }
 
 .happy-family button{
+    background-color: #3252DF;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border: none;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
@@ -752,11 +751,6 @@ margin: 0 auto;
     margin-top: 50px;
     margin-left: -200px;
     font-size: 18px;
-    background-color: #3252DF;
-    color: white;
-    border-radius: 4px;
-    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
-    border: none;
 }
 
 .happy img {
@@ -767,12 +761,12 @@ margin: 0 auto;
 }
 
 .bintang-lima {
-    left: 0;
-    margin-top: 40px;
-    margin-left: -100px;
     position: relative;
     display: flex;
     bottom: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: -200px;
 }
 
 .deskripsi p {
@@ -782,10 +776,9 @@ margin: 0 auto;
     margin-left: -200px;
 }
 
-
 footer {
-    margin-top: 350px;
-    border-top: 4px solid #E5E5E5;
+    margin-top: 230px;
+    border-top: 2px solid #E5E5E5;
 }
 
 .footer_pertama {
@@ -806,7 +799,6 @@ footer {
     font-size: 18px;
 }
 
-
 .footer_kedua {
     margin-left: 140px;
 }
@@ -821,9 +813,8 @@ footer {
     font-size: 16px;
 }
 
-
 .footer_ketiga {
-    margin-left: 180px;
+    margin-left: 100px;
 }
 
 .footer_ketiga h2 {
@@ -833,24 +824,22 @@ footer {
 
 .footer_ketiga p {
     color: #B0B0B0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-
 .footer_keempat {
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 .footer_keempat h2 {
     color: #152C5B;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .footer_keempat p {
     color: #B0B0B0;
     font-size: 16px;
 }
-
 
 .teks_terakhir p {
     text-align: center;
