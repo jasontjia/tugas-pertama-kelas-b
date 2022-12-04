@@ -136,7 +136,6 @@ main .show__me {
     top: 420px;
 }
 
-
 .kontainer_atas {
 width: 800px;
 margin: 0 auto;
@@ -235,7 +234,7 @@ margin: 0 auto;
     top: 420px;
 }
 
-.harga_pertama {
+.harga-pertama {
     position: absolute;
     display: flex;
     padding-left: 180px;
@@ -245,21 +244,20 @@ margin: 0 auto;
     margin-top: 0px;
 }
 
-.harga_pertama p{
+.harga-pertama p{
     position: absolute;
     font-size: 18px;
     color: #FFFFFF;
-    ;
     position: absolute;
     left: 212px;
     top: -13px;
 }
 
-.harga_pertama p span {
+.harga-pertama p span {
     font-weight: bold;
 }
 
-.harga_kedua {
+.harga-kedua {
     position: absolute;
     display: flex;
     padding-left: 180px;
@@ -269,7 +267,7 @@ margin: 0 auto;
     margin-top: 0px;
 }
 
-.harga_kedua p {
+.harga-kedua p {
     position: absolute;
     font-size: 18px;
     color: #FFFFFF;
@@ -278,7 +276,7 @@ margin: 0 auto;
     top: -13px;
 }
 
-.harga_kedua p span {
+.harga-kedua p span {
     font-weight: bold;
 }
 
